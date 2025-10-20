@@ -1,1 +1,1 @@
-Ideal simulation (statevector simulation) refers to a noise-free, deterministic calculation of the quantum state’s evolution. In this case, the full statevector ∣ψ⟩ is computed exactly, and measurement probabilities are derived analytically as ∣⟨x∣ψ⟩∣^2, corresponding to an effectively infinite number of measurement samples.
+
