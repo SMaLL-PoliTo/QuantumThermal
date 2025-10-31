@@ -15,7 +15,7 @@ These experiments evaluate the effect of sampling noise by varying the number of
 | Optimizer           | **COBYQA**                          |
 | Execution mode      | **Shot-based simulation**           |
 | Framework           | **Qiskit Aer**                      |
-| Qubits              | 4 qubits                            |
+| Qubits              | 3 qubits                            |
 | Readout evaluations | `N_R = 30`                          |
 
 📌 Difference Between Case #3 and #4
