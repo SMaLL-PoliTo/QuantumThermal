@@ -7,11 +7,11 @@ These tests implement a Variational Quantum Eigensolver (VQE) using the **A2** a
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Property             | Description                                              |
 | -------------------- | -------------------------------------------------------- |
-| Ansatz               | `R<sub>y</sub>` gates + `CZ` gates                       |
+| Ansatz               | `$R_y` gates + `CZ` gates                                |
 | Entanglement pattern | **Full entanglement** across all qubits                  |
 | Layers               | **3.5 layers**                                           |
 | Number of qubits     | **3-qubit**, **4-qubit**, and **5-qubit** configurations |
 | Execution            | **Ideal simulation** (no noise)                          |
 | Framework            | **Quantum Matcha TEA**                                   |
 | Optimizer            | **BFGS** (default tolerance)                             |
-| Readout              | Single evaluation per iteration (`N<sub>R</sub> = 1`)    |
+| Readout              | Single evaluation per iteration (`$N_R$ = 1`)            |

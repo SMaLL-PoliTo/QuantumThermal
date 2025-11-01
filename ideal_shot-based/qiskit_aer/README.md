@@ -7,16 +7,16 @@ These experiments evaluate the effect of sampling noise by varying the number of
 
 🧠 Ansatz — **A3** Configuration
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-| Property             | Description                            |
-| -------------------- | -------------------------------------- |
-| Ansatz               | `R<sub>y</sub>` gates + `CX` gates     |
-| Entanglement pattern | **Full entanglement** across qubits    |
-| Layers               | **4 layers**                           |
-| Number of qubits     | **3 qubits** configuration             |
-| Execution            | **Shot-based simulation**              |
-| Framework            | **Qiskit Aer**                         |
-| Optimizer            | **COBYQA**                             |
-| Readout              | `N<sub>R</sub> = 30`                   |
+| Property             | Description                         |
+| -------------------- | ----------------------------------- |
+| Ansatz               | `$R_y` gates + `CX` gates           |
+| Entanglement pattern | **Full entanglement** across qubits |
+| Layers               | **4 layers**                        |
+| Number of qubits     | **3 qubits** configuration          |
+| Execution            | **Shot-based simulation**           |
+| Framework            | **Qiskit Aer**                      |
+| Optimizer            | **COBYQA**                          |
+| Readout              | `$N_R = 30`                         |
 
 📌 Difference Between Case #3 and #4
 ---------------------------------------------------------------------------------------------------------------------------------------------------
