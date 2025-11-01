@@ -1,13 +1,13 @@
-🚀 Case Study A3 — Qrisp VQE With COBYQA (Precision Comparison)
+🚀 Case Study A3p — Qrisp VQE With COBYQA (Precision Comparison)
 ---------------------------------------------------------------------------------------------------------------------------------
 This folder contains the code for Case Study #5 and #6 from the publication.
 Both cases evaluate a Variational Quantum Eigensolver (VQE) implemented in Qrisp, using:
 
-- A3 ansatz
+- A3p ansatz
 
 - COBYQA optimizer
 
-- 4 qubits
+- 3 qubits
 
 - 4 ansatz layers
 
