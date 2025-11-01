@@ -9,14 +9,14 @@ These experiments evaluate the effect of sampling noise by varying the number of
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 | Property             | Description                         |
 | -------------------- | ----------------------------------- |
-| Ansatz               | `$R_y` gates + `CX` gates           |
+| Ansatz               | $\mathrm{R_y}$ gates + CX gates     |
 | Entanglement pattern | **Full entanglement** across qubits |
 | Layers               | **4 layers**                        |
 | Number of qubits     | **3 qubits** configuration          |
 | Execution            | **Shot-based simulation**           |
 | Framework            | **Qiskit Aer**                      |
 | Optimizer            | **COBYQA**                          |
-| Readout              | `$N_R = 30`                         |
+| Readout              | $\mathrm{N_R}=30$                   |
 
 📌 Difference Between Case #3 and #4
 ---------------------------------------------------------------------------------------------------------------------------------------------------

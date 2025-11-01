@@ -19,15 +19,15 @@ The goal is to analyze numerical precision effects in quantum-classical optimiza
 ---------------------------------------------------------------------------------------------------------------------------------
 | Property             | Description                             |
 | -------------------- | --------------------------------------- |
-| Ansatz               | `$R_y` gates + `CX` gates               |
+| Ansatz               | $\mathrm{R_y}$ gates + CX gates         |
 | Entanglement pattern | **Full entanglement** across all qubits |
 | Layers               | 4                                       |
 | Number of qubits     | **3 qubits** configuration              |
 | Execution            | **Shot-based simulation**               |
 | Framework            | **Qrisp** statevector simulator         |
 | Optimizer            | COBYQA                                  |
-| Hamiltonian          | $H_2$ molecule (minimal basis)          |
-| Readout              | `$N_R$ = 30` independent restarts       |
+| Hamiltonian          | $\mathrm{H_2}$ molecule (minimal basis) |
+| Readout              | $\mathrm{N_R}=30$ independent restarts  |
 
 🔍 Case #5 vs Case #6 — Key Difference
 ---------------------------------------------------------------------------------------------------------------------------------
