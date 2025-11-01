@@ -1,22 +1,22 @@
 🚀 Case Study A3 — Shot-Based VQE Simulations (Qiskit Aer)
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-This folder contains the simulation code for Case Study #3 and #4 from the publication.
-Both studies implement a Variational Quantum Eigensolver (VQE) using the A3 ansatz under realistic shot-based sampling on the Qiskit Aer simulator.
+This folder contains the simulation notebook and results for Case Study #3 and #4 from the associated publication.
+Both tests implement a Variational Quantum Eigensolver (VQE) using the **A3** ansatz under realistic shot-based sampling on the Qiskit Aer simulator.
 
 These experiments evaluate the effect of sampling noise by varying the number of measurement shots.
 
-🧠 Ansatz — A3 Configuration
+🧠 Ansatz — **A3** Configuration
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-| Property            | Description                         |
-| ------------------- | ----------------------------------- |
-| Ansatz              | `R_y` rotations + `CX` gates        |
-| Entanglement        | **Full entanglement** across qubits |
-| Layers              | **4 layers**                        |
-| Optimizer           | **COBYQA**                          |
-| Execution mode      | **Shot-based simulation**           |
-| Framework           | **Qiskit Aer**                      |
-| Qubits              | 3 qubits                            |
-| Readout evaluations | `N_R = 30`                          |
+| Property             | Description                            |
+| -------------------- | -------------------------------------- |
+| Ansatz               | `R<sub>y</sub>` gates + `CX` gates     |
+| Entanglement pattern | **Full entanglement** across qubits    |
+| Layers               | **4 layers**                           |
+| Number of qubits     | **3 qubits** configuration             |
+| Execution            | **Shot-based simulation**              |
+| Framework            | **Qiskit Aer**                         |
+| Optimizer            | **COBYQA**                             |
+| Readout              | `N<sub>R</sub> = 30`                   |
 
 📌 Difference Between Case #3 and #4
 ---------------------------------------------------------------------------------------------------------------------------------------------------
