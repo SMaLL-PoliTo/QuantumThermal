@@ -13,10 +13,10 @@ The notebooks are intended for **pedagogical use**. They prioritize clarity and 
 
 This repository contains only the following two notebooks:
 
-- `real-data-loader_qiskit_run3q.ipynb`  
+- `real-data-loader_qiskit_run3q.ipynb`
   Tutorial notebook showing how real-valued data can be loaded into a **3-qubit input register** using a divide-and-conquer amplitude-encoding strategy in Qiskit.
 
-- `HHL_qiskit_run3q_clock5q_ancilla1q.ipynb`  
+- `HHL_qiskit_run3q_clock5q_ancilla1q.ipynb`
   Main HHL tutorial notebook implementing the heat-equation example with **3 input qubits**, **5 clock qubits**, and **1 ancilla qubit**, using ideal statevector simulations.
 
 ## What the notebooks cover

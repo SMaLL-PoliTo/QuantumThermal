@@ -10,10 +10,10 @@ The repository is connected to the broader document **"Notes on Quantum Computin
 
 This repository is organized into two main subfolders:
 
-- **`HHL/`**  
+- **`HHL/`**
   Material related to the HHL tutorial paper, focused on the Harrow-Hassidim-Lloyd algorithm for linear systems and its application to a simple heat-conduction example. The corresponding notebooks are intended as pedagogical companions to the manuscript.
 
-- **`VQE/`**  
+- **`VQE/`**
   Material related to the VQE-based [paper](https://doi.org/10.1016/j.csite.2026.107813) published in *CSITE*, focused on variational quantum approaches for thermal-science problems.
 
 ## Scope
@@ -56,5 +56,5 @@ If you found this material valuable, please consider citing the related arXiv do
 
 ## Authors
 
-May 2025  
+May 2025
 [Pietro Asinari](https://staff.polito.it/pietro.asinari/), [Nada Alghamdi](https://www.polito.it/en/staff?p=106642), [Paolo De Angelis](https://paolodeangelis.github.io/), [Giulio Barletta](https://giuliobarl.github.io/), [Giovanni Trezza](https://www.grenoble-inp.fr/fr/personnel/giovanni-trezza), [Marina Provenzano](https://www.polito.it/en/staff?p=043095), [Matteo Maria Piredda](https://www.polito.it/en/staff?p=067867), [Matteo Fasano](https://www.polito.it/en/staff?p=026208), [Eliodoro Chiavazzo](https://www.polito.it/en/staff?p=eliodoro.chiavazzo)
