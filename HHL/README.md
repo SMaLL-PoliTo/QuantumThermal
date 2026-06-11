@@ -19,13 +19,22 @@ This repository contains only the following two notebooks:
 - `HHL_qiskit_run3q_clock5q_ancilla1q.ipynb`
   Main HHL tutorial notebook implementing the heat-equation example with **3 input qubits**, **5 clock qubits**, and **1 ancilla qubit**, using ideal statevector simulations.
 
+- `HHL_qiskit_run3q_clock6q_ancilla1q.ipynb`
+  Main HHL tutorial notebook implementing the heat-equation example with **3 input qubits**, **6 clock qubits**, and **1 ancilla qubit**, using ideal statevector simulations.
+
+- `HHL_qiskit_run4q_clock8q_ancilla1q.ipynb`
+  Main HHL tutorial notebook implementing the heat-equation example with **4 input qubits**, **8 clock qubits**, and **1 ancilla qubit**, using ideal statevector simulations.
+
+- `HHL_qiskit_run5q_clock10q_ancilla1q.ipynb`
+  Main HHL tutorial notebook implementing the heat-equation example with **5 input qubits**, **10 clock qubits**, and **1 ancilla qubit**, using ideal statevector simulations.
+
 ## What the notebooks cover
 
 ### 1. Real data loader notebook
 This notebook illustrates how a real-valued vector can be encoded into a quantum state using controlled `RY` rotations. It is meant as supporting material for the appendix on real data loading/encoding.
 
-### 2. HHL tutorial notebook
-This notebook follows the structure of the manuscript and walks through the main stages of the HHL algorithm:
+### 2. HHL tutorial notebooks
+These notebooks follows the structure of the manuscript and walk through the main stages of the HHL algorithm:
 
 - problem definition and normalization,
 - spectral analysis of the test matrix,
@@ -45,9 +54,9 @@ This notebook follows the structure of the manuscript and walks through the main
 
 A standard Python environment with Jupyter and Qiskit is sufficient. In practice, you will typically need:
 
-- Python 3
+- Python 3.12
 - Jupyter Notebook or JupyterLab
-- Qiskit
+- Qiskit 2.4.1
 - NumPy
 - Matplotlib
 - SciPy
@@ -59,16 +68,17 @@ Depending on your local setup, some additional packages used by Qiskit visualiza
 A reasonable reading order is:
 
 1. start from `real-data-loader_qiskit_run3q.ipynb`,
-2. then move to `HHL_qiskit_run3q_clock5q_ancilla1q.ipynb`.
+2. then move to `HHL_qiskit_run3q_clock5q_ancilla1q.ipynb`,
+3. finally move to the error analysis by `n = 3, 4, 5` and `n_c = 2*n`.
 
-This order mirrors the pedagogical progression of the manuscript: first state preparation, then the full HHL workflow.
+This order mirrors the pedagogical progression of the manuscript: first state preparation, then the full HHL workflow, finally the error analysis.
 
 ## Relation to the manuscript
 
 These notebooks accompany the follow-up HHL tutorial paper and are meant to support the practical understanding of the derivations presented there. In particular:
 
-- the real-data-loader notebook supports the appendix on **real data loading/encoding**,
-- the HHL notebook supports the main worked example based on the **1D heat-conduction problem**.
+- the real-data-loader notebook supports Appendix A on **real data loading/encoding**,
+- the HHL notebooks support the main worked example based on the **1D heat-conduction problem**, as well as the final error analysis in Appendix C.
 
 ## Notes
 
